@@ -6,11 +6,12 @@ import Todo from './Todo';
 import './Todo.css'
 
 const  TodoList = props =>{
-
+let count = 0;
     return (
         <div className='todoList'>
             {props.doList.map(task => {
-                return <Todo aTask={task} toggleComp={props.toggle}/>
+                {count++}
+                return ( <Todo aTask={task} toggleComp={props.toggle} count={count}/>)
                     
                 
             })}

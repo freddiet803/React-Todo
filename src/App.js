@@ -52,7 +52,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='appWrap'>
-        <h2>Welcome to your Todo App!</h2>
+        <h2>Freddie's React Todo App</h2>
         <TodoList doList={this.state.theTodoList} toggle={this.toggleCompleted}/>
         <TodoForm clear={this.clearCompleted} addTask={this.addTodoListItem}/> 
       </div>
