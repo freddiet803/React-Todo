@@ -1,0 +1,13 @@
+.completedTask {
+  text-decoration: line-through;
+}
+
+.todo {
+  border: solid 1px black;
+  width: 25%;
+  text-align: center;
+}
+
+.todoList {
+  width: 50%;
+}
